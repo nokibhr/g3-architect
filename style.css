@@ -1,0 +1,102 @@
+/* Shared Styles */
+
+* {
+    font-family: "Work Sans", serif;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.25rem;
+    border: 0;
+    padding: 20px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Header styles */
+
+header {
+    background: rgba(244, 144, 14, .10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
+
+.banner-description {
+    color: #727272;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive Media Query */
+
+/* For Mobile Devices */
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* Responsive for Tablet or medium devices */
+
+@media screen and (max-width:992px) and (min-width:576px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
